@@ -99,7 +99,7 @@ app.layout = html.Div(children=[
                 ], className='twelve columns'),
 
         html.Div(children=[
-                html.H3('Linear Regression Coefficients (standardized features)'),
+                html.H3('Decision Tree Regression Coefficients (standardized features)'),
                 dcc.Graph(figure=coefs, id='coefs_fig')
                 ], className='twelve columns'),
 
